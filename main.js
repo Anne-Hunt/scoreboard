@@ -8,6 +8,18 @@ let walk = Number(-3)
 
 drawScore()
 
+function dogPoints(score, pointsValue) {
+    dogScore = score + pointsValue;
+    console.log(dogScore)
+    drawScore()
+}
+
+function catPoints(score, pointsValue) {
+    catScore = score + pointsValue;
+    console.log(catScore)
+    drawScore()
+}
+/*
 function dogFood() {
     dogScore = dogScore + food
     console.log(dogScore)
@@ -41,7 +53,7 @@ function catWalk() {
     console.log(catScore)
     drawScore()
 }
-
+*/
 function drawScore() {
     if (dogScore < 0 || catScore > 19) {
         window.alert('Cat Wins!')

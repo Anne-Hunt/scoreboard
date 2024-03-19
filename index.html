@@ -44,31 +44,37 @@
             <div class="col-12">
                 <div id="food" class="row py-2">
                     <div class="col-6 d-flex justify-content-end">
-                        <button id="catFood" class="btn btn-warning fs-3 shadow" onclick="catFood()">🍲 Cat
+                        <button id="catFood" class="btn btn-warning fs-3 shadow" onclick="catPoints(catScore, food)">🍲
+                            Cat
                             Food</button>
                     </div>
                     <div class="col-6 justify-content-start">
-                        <button id="dogFood" class="btn btn-warning fs-3 shadow" onclick="dogFood()">🍲 Dog
+                        <button id="dogFood" class="btn btn-warning fs-3 shadow" onclick="dogPoints(dogScore, food)">🍲
+                            Dog
                             Food</button>
                     </div>
                 </div>
                 <div id="treats" class="row pb-2">
                     <div class="col-6 d-flex justify-content-end">
-                        <button id="catTreats" class="btn btn-danger fs-3 shadow" onclick="catTreats()">🍣 Cat
+                        <button id="catTreats" class="btn btn-danger fs-3 shadow"
+                            onclick="catPoints(catScore, treats)">🍣 Cat
                             Treats</button>
                     </div>
                     <div class="col-6 justify-content-start">
-                        <button id="dogTreats" class="btn btn-danger fs-3 shadow" onclick="dogTreats()">🍖 Dog
+                        <button id="dogTreats" class="btn btn-danger fs-3 shadow"
+                            onclick="dogPoints(dogScore, treats)">🍖 Dog
                             Treats</button>
                     </div>
                 </div>
                 <div id="walk" class="row pb-5">
                     <div class="col-6 d-flex justify-content-end">
-                        <button id="catWalk" class="btn btn-primary fs-3 shadow" onclick="catWalk()">👟 Cat
+                        <button id="catWalk" class="btn btn-primary fs-3 shadow" onclick="catPoints(catScore, walk)">👟
+                            Cat
                             Walk</button>
                     </div>
                     <div class="col-6 justify-content-start">
-                        <button id="dogWalk" class="btn btn-primary fs-3 shadow" onclick="dogWalk()">🥾 Dog
+                        <button id="dogWalk" class="btn btn-primary fs-3 shadow" onclick="dogPoints(dogScore, walk)">🥾
+                            Dog
                             Walk</button>
                     </div>
                 </div>
